@@ -1,0 +1,56 @@
+a:visited{
+    color: yellowgreen;
+    text-decoration-color: rgb(122, 8, 230);
+}
+
+a:active{
+    box-shadow: 2px 2px 5px aliceblue;
+}
+
+.Junze{
+    height: 375px;
+    width: 350px;
+}
+
+.link{
+    color: blue;
+    font-size: 20px;
+}
+
+.link:hover{
+    color: red;
+    font-size: 22px;
+}
+
+#mainPage{
+    background-color: aliceblue;
+}
+
+.Notes{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Notes li{
+    display: inline;
+}
+
+#p5::first-line{
+    color: red;
+    font-style: italic;
+}
+
+#title{
+    color: rgb(115, 0, 255);
+    text-align: center;
+}
+
+#line1{
+    border-bottom: aliceblue;
+    border-style: none;
+    border-bottom-style: dotted;
+    border-width: 6px;
+    width: 400px;
+}
